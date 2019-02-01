@@ -107,7 +107,7 @@
                         android:layout_row="0"
                         android:layout_column="2"
                         android:background="@drawable/btn_circle_green"
-                        android:text="+"
+                        android:text="-"
                         android:textColor="#ffffff"
                         android:textSize="22dp" />
 
@@ -129,7 +129,7 @@
                         android:layout_height="38dp"
                         android:layout_marginLeft="15dp"
                         android:background="@drawable/btn_circle_green"
-                        android:text="-"
+                        android:text="+"
                         android:textColor="#ffffff"
                         android:textSize="22dp" />
             </GridLayout>
