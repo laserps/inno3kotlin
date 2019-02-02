@@ -31,5 +31,7 @@
         <item>11.00</item>
         <item>12.00</item>
     </string-array>
+    <string name="title_activity_username">Sign in</string>
+    <string name="title_activity_usernamre">เข้าสู่ระบบ</string>
 
 </resources>
