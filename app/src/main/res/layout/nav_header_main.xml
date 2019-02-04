@@ -16,8 +16,6 @@
             android:src="@drawable/user_test"
             app:civ_border_width="3dp"
             app:civ_border_color="#ffffff"/>
-
-
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -26,16 +24,18 @@
             android:textColor="#ffffff"
             android:textStyle="bold"
             android:textSize="22dp"
+            android:fontFamily="@font/kanit"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
-
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="username@gmail.com"
+            android:fontFamily="@font/kanit"
             android:textColor="#ffffff"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="เครดิตคงเหลือ : 1000 THB"
+            android:fontFamily="@font/kanit"
             android:textColor="#78d210"/>
 </LinearLayout>
