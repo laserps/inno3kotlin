@@ -15,7 +15,7 @@
             android:theme="@style/AppTheme">
         <activity
                 android:name=".RegisterActivity"
-                android:label="@string/title_activity_register"
+                android:label="RegisterActivity"
                 android:theme="@style/AppTheme.NoActionBar">
 
         </activity>

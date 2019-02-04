@@ -1,5 +1,6 @@
 package com.example.inno3app
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
@@ -60,29 +61,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.nav_camera -> {
-                text_view.text = "nav_camera"
-                return true
+            R.id.activity_main -> {
+                val intent = Intent(this,MainActivity::class.java);
+                startActivity(intent);
             }
-            R.id.nav_gallery -> {
-                text_view.text = "nav_gallery"
-                return true
-            }
-            R.id.nav_slideshow -> {
-                text_view.text = "nav_slideshow"
-                return true
-            }
-            R.id.nav_manage -> {
-                text_view.text = "nav_manage"
-                return true
-            }
-            R.id.nav_share -> {
-                text_view.text = "nav_share"
-                return true
-            }
-            R.id.nav_send -> {
-                text_view.text = "nav_send"
-                return true
+            R.id.activity_home -> {
+                val intent = Intent(this,HomeActivity::class.java);
+                startActivity(intent);
             }
         }
 
