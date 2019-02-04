@@ -34,5 +34,6 @@
     <string name="title_activity_username">Sign in</string>
     <string name="title_activity_usernamre">เข้าสู่ระบบ</string>
     <string name="title_activity_register">ลงทำเบียน</string>
+    <string name="title_activity_payment">ชำระเงิน</string>
 
 </resources>
