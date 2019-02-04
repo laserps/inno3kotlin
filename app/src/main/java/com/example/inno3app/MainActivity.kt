@@ -11,6 +11,7 @@ import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 
+
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -60,22 +61,28 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         // Handle navigation view item clicks here.
         when (item.itemId) {
             R.id.nav_camera -> {
-                // Handle the camera action
+                text_view.text = "nav_camera"
+                return true
             }
             R.id.nav_gallery -> {
-
+                text_view.text = "nav_gallery"
+                return true
             }
             R.id.nav_slideshow -> {
-
+                text_view.text = "nav_slideshow"
+                return true
             }
             R.id.nav_manage -> {
-
+                text_view.text = "nav_manage"
+                return true
             }
             R.id.nav_share -> {
-
+                text_view.text = "nav_share"
+                return true
             }
             R.id.nav_send -> {
-
+                text_view.text = "nav_send"
+                return true
             }
         }
 
