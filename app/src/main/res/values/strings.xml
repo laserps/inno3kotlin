@@ -130,5 +130,9 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="title_activity_confirm_order">confirm_order</string>
+    <string name="title_activity_history_order">history_order</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map">map</string>
+    <string name="title_activity_delivery_location">delivery_location</string>
 
 </resources>
