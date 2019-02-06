@@ -57,8 +57,7 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         // Handle navigation view item clicks here.
         when (item.itemId) {
             R.id.activity_main -> {
-                val intent = Intent(this,MainActivity::class.java);
-                startActivity(intent);
+                //
             }
             R.id.activity_home -> {
                 val intent = Intent(this,HomeActivity::class.java);
