@@ -1,5 +1,6 @@
 package com.example.inno3app
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
@@ -55,23 +56,17 @@ class confirm_order : AppCompatActivity(), NavigationView.OnNavigationItemSelect
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.nav_camera -> {
-                // Handle the camera action
+            R.id.activity_history_order -> {
+                val intent = Intent(this,history_order::class.java);
+                startActivity(intent);
             }
-            R.id.nav_gallery -> {
-
+            R.id.activity_credit -> {
+                val intent = Intent(this,Credit::class.java);
+                startActivity(intent);
             }
-            R.id.nav_slideshow -> {
-
-            }
-            R.id.nav_manage -> {
-
-            }
-            R.id.nav_share -> {
-
-            }
-            R.id.nav_send -> {
-
+            R.id.activity_login -> {
+                val intent = Intent(this,login::class.java);
+                startActivity(intent);
             }
         }
 

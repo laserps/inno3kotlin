@@ -55,6 +55,7 @@
 
             <Button
                     android:layout_width="match_parent"
+                    android:id="@+id/link_home_login"
                     android:layout_height="wrap_content"
                     android:background="@drawable/inno3_green_bg"
                     android:text="เข้าสู่ระบบ"

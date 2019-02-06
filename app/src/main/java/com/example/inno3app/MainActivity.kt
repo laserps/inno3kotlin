@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         toggle.syncState()
 
         nav_view.setNavigationItemSelectedListener(this)
+
     }
 
     override fun onBackPressed() {
@@ -56,14 +57,14 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.activity_main -> {
-                val intent = Intent(this,MainActivity::class.java);
-                startActivity(intent);
-            }
-            R.id.activity_home -> {
-                val intent = Intent(this,HomeActivity::class.java);
-                startActivity(intent);
-            }
+//            R.id.activity_main -> {
+//                val intent = Intent(this,MainActivity::class.java);
+//                startActivity(intent);
+//            }
+//            R.id.activity_home -> {
+//                val intent = Intent(this,HomeActivity::class.java);
+//                startActivity(intent);
+//            }
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)
