@@ -9,16 +9,16 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import kotlinx.android.synthetic.main.activity_payment.*
-import kotlinx.android.synthetic.main.app_bar_payment.*
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.app_bar_main.*
 
-class Payment : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+
+class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_payment)
+        setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
-
 
         val toggle = ActionBarDrawerToggle(
             this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close
@@ -27,6 +27,7 @@ class Payment : AppCompatActivity(), NavigationView.OnNavigationItemSelectedList
         toggle.syncState()
 
         nav_view.setNavigationItemSelectedListener(this)
+
     }
 
     override fun onBackPressed() {
@@ -39,7 +40,7 @@ class Payment : AppCompatActivity(), NavigationView.OnNavigationItemSelectedList
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.payment, menu)
+        menuInflater.inflate(R.menu.main, menu)
         return true
     }
 
@@ -56,18 +57,14 @@ class Payment : AppCompatActivity(), NavigationView.OnNavigationItemSelectedList
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.activity_history_order -> {
-                val intent = Intent(this,history_order::class.java);
-                startActivity(intent);
-            }
-            R.id.activity_credit -> {
-                val intent = Intent(this,Credit::class.java);
-                startActivity(intent);
-            }
-            R.id.activity_login -> {
-                val intent = Intent(this,login::class.java);
-                startActivity(intent);
-            }
+//            R.id.activity_main -> {
+//                val intent = Intent(this,MainActivity::class.java);
+//                startActivity(intent);
+//            }
+//            R.id.activity_home -> {
+//                val intent = Intent(this,HomeActivity::class.java);
+//                startActivity(intent);
+//            }
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)

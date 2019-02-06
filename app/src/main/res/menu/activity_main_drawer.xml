@@ -5,14 +5,21 @@
 
     <group android:checkableBehavior="single">
         <item
-                android:id="@+id/activity_main"
-                android:icon="@drawable/ic_menu_camera"
-                android:title="Main"/>
+                android:id="@+id/activity_history_order"
+                android:icon="@drawable/ic_shopping_cart_black_24dp"
+                android:title="ประวัติการสั่งซื้อ"/>
         <item
-                android:id="@+id/activity_home"
-                android:icon="@drawable/ic_menu_gallery"
-                android:title="Home"/>
+                android:id="@+id/activity_credit"
+                android:icon="@drawable/ic_card_membership_black_24dp"
+                android:title="เครดิต"/>
+        <item
+                android:id="@+id/activity_login"
+                android:icon="@drawable/ic_cancel_black_24dp"
+                android:title="ออกจากระบบ"/>
+
     </group>
+
+
 
     <!--<item android:title="Communicate">-->
     <!--<menu>-->
