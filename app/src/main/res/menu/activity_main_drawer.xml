@@ -16,7 +16,6 @@
                 android:id="@+id/activity_login"
                 android:icon="@drawable/ic_cancel_black_24dp"
                 android:title="ออกจากระบบ"/>
-
     </group>
 
 
