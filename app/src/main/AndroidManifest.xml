@@ -20,6 +20,11 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
+                android:name=".Receipt"
+                android:label="@string/title_activity_receipt"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
                 android:name=".cart"
                 android:label="ตะกร้าสินค้า"
                 android:theme="@style/AppTheme.NoActionBar">
@@ -62,10 +67,10 @@
         <activity android:name=".login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
         <activity
                 android:name=".HomeActivity"
                 android:label="หน้าแรก"
