@@ -6,8 +6,12 @@
         <item name="android:fontFamily">@font/kanit</item>
     </style>
 
+<<<<<<< HEAD
 
     <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+=======
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+>>>>>>> 70b064dbfe60ecefa4530589960c11a7e1682218
         <!-- Customize your theme here. -->
         <item name="android:statusBarColor">@drawable/inno3_navbar_bg</item>
         <item name="colorPrimary">@color/colorPrimary</item>
