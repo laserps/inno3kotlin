@@ -31,6 +31,16 @@
         <item>11.00</item>
         <item>12.00</item>
     </string-array>
+
+    <string-array name="chapter">
+        <item>sdddd1</item>
+    </string-array>
+
+    <string-array name="chapte1">
+        <item>Section 1</item>
+    </string-array>
+
+
     <string name="title_activity_username">Sign in</string>
     <string name="title_activity_usernamre">เข้าสู่ระบบ</string>
     <string name="title_activity_register">ลงทำเบียน</string>
@@ -50,5 +60,8 @@
     <string name="title_activity_receipt">ใบเสร็จรับเงิน</string>
     <string name="title_activity_google">googleActivity</string>
 
-    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">AIzaSyDRv3q2EKlM5c7OsDXVru_leLBiKTbG6jE</string>
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyDRv3q2EKlM5c7OsDXVru_leLBiKTbG6jE
+    </string>
+    <string name="title_activity_tracking">TrackingActivity</string>
 </resources>
