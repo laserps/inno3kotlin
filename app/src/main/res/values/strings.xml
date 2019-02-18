@@ -64,4 +64,5 @@
         AIzaSyDRv3q2EKlM5c7OsDXVru_leLBiKTbG6jE
     </string>
     <string name="title_activity_tracking">TrackingActivity</string>
+    <string name="title_activity_expandable">Expandable</string>
 </resources>
