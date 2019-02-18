@@ -20,10 +20,14 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
+                android:name=".PaymentActivity"
+                android:label="@string/title_activity_payment"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
                 android:name=".TrackingActivity"
                 android:label="@string/title_activity_tracking"
                 android:theme="@style/AppTheme.NoActionBar">
-
         </activity>
         <activity
                 android:name=".GoogleActivity"
@@ -75,11 +79,6 @@
                 android:name=".Payment"
                 android:label="ชำระเงิน"
                 android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
         <activity
                 android:name=".RegisterActivity"
@@ -92,7 +91,11 @@
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
 
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
         <activity
                 android:name=".HomeActivity"
