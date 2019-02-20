@@ -10,6 +10,7 @@
         tools:context=".Payment">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -173,6 +174,8 @@
 
     </RelativeLayout>
 
+=======
+>>>>>>> parent of e9a435c... page paymenavtivity
 =======
 >>>>>>> parent of e9a435c... page paymenavtivity
 
