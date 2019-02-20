@@ -28,6 +28,7 @@
              You can define the keys for the debug and release targets in src/debug/ and src/release/.
         -->
         <activity
+<<<<<<< HEAD
                 android:name=".Expandable"
                 android:label="@string/title_activity_expandable"
                 android:theme="@style/AppTheme.NoActionBar">
@@ -38,9 +39,12 @@
             </intent-filter>
         </activity>
         <activity
+=======
+>>>>>>> parent of e9a435c... page paymenavtivity
                 android:name=".TrackingActivity"
                 android:label="@string/title_activity_tracking"
                 android:theme="@style/AppTheme.NoActionBar">
+
         </activity>
         <activity
                 android:name=".GoogleActivity"
@@ -89,6 +93,19 @@
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
+<<<<<<< HEAD
+=======
+                android:name=".Payment"
+                android:label="ชำระเงิน"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+>>>>>>> parent of e9a435c... page paymenavtivity
                 android:name=".RegisterActivity"
                 android:label="สมัครสมาชิก"
                 android:theme="@style/AppTheme.NoActionBar">
