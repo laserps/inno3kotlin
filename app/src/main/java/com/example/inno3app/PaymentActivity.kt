@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.RadioButton
 
 import kotlinx.android.synthetic.main.activity_payment.*
+import kotlinx.android.synthetic.main.content_payment.*
 
 class PaymentActivity : AppCompatActivity() {
 
@@ -14,7 +15,8 @@ class PaymentActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_payment)
         setSupportActionBar(toolbar)
-
+        mybanking.visibility = View.GONE
+        mypaypal.visibility = View.GONE
     }
     fun  onRadioButtonClicked(view: View) {
         if (view is RadioButton) {
@@ -23,13 +25,23 @@ class PaymentActivity : AppCompatActivity() {
 
             // Check which radio button was clicked
             when (view.getId()) {
-                R.id.radio_pirates ->
+                R.id.radio_credit ->
                     if (checked) {
-
+                        mycredit.visibility = View.VISIBLE
+                        mybanking.visibility = View.GONE
+                        mypaypal.visibility = View.GONE
                     }
-                R.id.radio_ninjas ->
+                R.id.radio_banking ->
                     if (checked) {
-
+                        mycredit.visibility = View.GONE
+                        mybanking.visibility = View.VISIBLE
+                        mypaypal.visibility = View.GONE
+                    }
+                R.id.radio_paypal ->
+                    if (checked) {
+                        mycredit.visibility = View.GONE
+                        mybanking.visibility = View.GONE
+                        mypaypal.visibility = View.VISIBLE
                     }
             }
         }
