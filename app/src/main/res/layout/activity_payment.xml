@@ -1,121 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.DrawerLayout
+<android.support.design.widget.CoordinatorLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/drawer_layout"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fitsSystemWindows="true"
-        tools:openDrawer="start">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <android.support.design.widget.CoordinatorLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:context=".PaymentActivity">
+        tools:context=".PaymentActivity">
 
-        <android.support.design.widget.AppBarLayout
-                android:layout_height="wrap_content"
+    <android.support.design.widget.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
                 android:layout_width="match_parent"
-                android:theme="@style/AppTheme.AppBarOverlay">
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
 
-            <android.support.v7.widget.Toolbar
-                    android:id="@+id/toolbar"
-                    android:layout_width="match_parent"
-                    android:layout_height="?attr/actionBarSize"
-                    android:background="@drawable/inno3_navbar_bg"
-                    app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    </android.support.design.widget.AppBarLayout>
 
-        </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_payment"/>
 
-        <include layout="@layout/content_payment"/>
-=======
 
-    <include
-            layout="@layout/app_bar_payment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
-=======
-
-    <include
-            layout="@layout/app_bar_payment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
->>>>>>> parent of e9a435c... page paymenavtivity
-=======
-
-    <include
-            layout="@layout/app_bar_payment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
->>>>>>> parent of e9a435c... page paymenavtivity
-=======
-
-    <include
-            layout="@layout/app_bar_payment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
->>>>>>> parent of e9a435c... page paymenavtivity
-=======
-
-    <include
-            layout="@layout/app_bar_payment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
->>>>>>> parent of e9a435c... page paymenavtivity
-    <android.support.design.widget.NavigationView
-            android:id="@+id/nav_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="start"
-            android:fitsSystemWindows="true"
-            app:headerLayout="@layout/nav_header_main"
-            app:menu="@menu/activity_home_drawer">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of e9a435c... page paymenavtivity
-
-    </android.support.design.widget.NavigationView>
-
-<<<<<<< HEAD
-    </android.support.design.widget.CoordinatorLayout>
-</android.support.v4.widget.DrawerLayout>
-=======
-</android.support.v4.widget.DrawerLayout>
->>>>>>> parent of e9a435c... page paymenavtivity
-=======
-=======
->>>>>>> parent of e9a435c... page paymenavtivity
-=======
->>>>>>> parent of e9a435c... page paymenavtivity
-=======
->>>>>>> parent of e9a435c... page paymenavtivity
-
-    </android.support.design.widget.NavigationView>
-
-</android.support.v4.widget.DrawerLayout>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of e9a435c... page paymenavtivity
-=======
->>>>>>> parent of e9a435c... page paymenavtivity
-=======
->>>>>>> parent of e9a435c... page paymenavtivity
-=======
->>>>>>> parent of e9a435c... page paymenavtivity
+</android.support.design.widget.CoordinatorLayout>

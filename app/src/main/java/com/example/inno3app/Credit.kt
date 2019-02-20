@@ -17,7 +17,7 @@ class Credit : AppCompatActivity() {
 
         val btnOpenCredit : Button = findViewById(R.id.btn_link_credit)
         btnOpenCredit.setOnClickListener{
-            val intent = Intent(this, PaymentActivity :: class.java)
+            val intent = Intent(this, PaymentActivity::class.java)
             startActivity(intent)
         }
     }
