@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_header_height"
+        android:background="@drawable/inno3_navbar_bg"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/user_test"
+            app:civ_border_width="3dp"
+            app:civ_border_color="#ffffff"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:text="Username"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:fontFamily="@font/kanit"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username@gmail.com"
+            android:fontFamily="@font/kanit"
+            android:textColor="#ffffff"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เครดิตคงเหลือ : 1000 THB"
+            android:fontFamily="@font/kanit"
+            android:textColor="#78d210"/>
+</LinearLayout>
