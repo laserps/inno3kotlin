@@ -13,9 +13,15 @@
             android:paddingBottom="5dp"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
 
 </LinearLayout>
+=======
+            android:textColor="@color/collorDrakGray"
+    />
+</android.support.v7.widget.CardView>
+>>>>>>> parent of e9a435c... page paymenavtivity
 =======
             android:textColor="@color/collorDrakGray"
     />
