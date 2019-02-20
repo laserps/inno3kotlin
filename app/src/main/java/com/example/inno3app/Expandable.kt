@@ -1,6 +1,5 @@
 package com.example.inno3app
 
-import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
@@ -9,16 +8,15 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import kotlinx.android.synthetic.main.activity_payment.*
-import kotlinx.android.synthetic.main.app_bar_payment.*
+import kotlinx.android.synthetic.main.activity_expandable.*
+import kotlinx.android.synthetic.main.app_bar_expandable.*
 
-class Payment : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+class Expandable : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_payment)
+        setContentView(R.layout.activity_expandable)
         setSupportActionBar(toolbar)
-
 
         val toggle = ActionBarDrawerToggle(
             this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close
@@ -39,7 +37,7 @@ class Payment : AppCompatActivity(), NavigationView.OnNavigationItemSelectedList
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.payment, menu)
+        menuInflater.inflate(R.menu.expandable, menu)
         return true
     }
 
@@ -56,17 +54,23 @@ class Payment : AppCompatActivity(), NavigationView.OnNavigationItemSelectedList
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.activity_history_order -> {
-                val intent = Intent(this,history_order::class.java);
-                startActivity(intent);
+            R.id.nav_camera -> {
+                // Handle the camera action
             }
-            R.id.activity_credit -> {
-                val intent = Intent(this,Credit::class.java);
-                startActivity(intent);
+            R.id.nav_gallery -> {
+
             }
-            R.id.activity_login -> {
-                val intent = Intent(this,login::class.java);
-                startActivity(intent);
+            R.id.nav_slideshow -> {
+
+            }
+            R.id.nav_manage -> {
+
+            }
+            R.id.nav_share -> {
+
+            }
+            R.id.nav_send -> {
+
             }
         }
 
