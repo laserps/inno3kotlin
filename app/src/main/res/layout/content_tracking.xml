@@ -18,6 +18,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
             <TableLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -57,35 +58,373 @@
                 </TableRow>
             </TableLayout>
 
-
-            <GridLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="@dimen/fab_margin">
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingRight="@dimen/fab_margin"
+                    android:paddingLeft="@dimen/fab_margin"
+                    android:weightSum="5" >
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
                     <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="21/09/2015"
-                            android:layout_row="0"
-                            android:layout_column="0"
-                    />
-                <TextView
-                        android:layout_width="wrap_content"
+                            android:layout_gravity="right"
+                            android:text="21/09/2015"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:textStyle="bold"
+                            android:text="Est. 6:00"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:textStyle="bold"
+                            android:text="am"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="1dp"
+                            app:srcCompat="@drawable/ic_brightness_1_black_24dp"
+                            android:tint="@color/colorpaymentGreen"/>
+
+                    <View
+                            android:layout_width="7dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@drawable/solid_tracking"/>
+
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Received by the courier"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingRight="@dimen/fab_margin"
+                    android:paddingLeft="@dimen/fab_margin"
+                    android:weightSum="5" >
+                <LinearLayout
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="Est. 6:00"
-                        android:textStyle="bold"
-                        android:layout_row="1"
-                        android:layout_column="0"
-                />
-                <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:text="21/09/2015"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:textStyle="bold"
+                            android:text="Est. 6:00"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:textStyle="bold"
+                            android:text="am"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="1dp"
+                            app:srcCompat="@drawable/ic_brightness_1_black_24dp"
+                            android:tint="@color/colorpaymentGreen"/>
+
+                    <View
+                            android:layout_width="7dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@drawable/solid_tracking"/>
+
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Processed at the depot"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingRight="@dimen/fab_margin"
+                    android:paddingLeft="@dimen/fab_margin"
+                    android:weightSum="5" >
+                <LinearLayout
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="Est. 6:00"
-                        android:textStyle="bold"
-                        android:layout_row="2"
-                        android:layout_column="0"
-                />
-            </GridLayout>
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:text="21/09/2015"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:textStyle="bold"
+                            android:text="Est. 6:00"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:textStyle="bold"
+                            android:text="am"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="1dp"
+                            app:srcCompat="@drawable/ic_brightness_1_black_24dp"
+                            android:tint="@color/colorpaymentGreen"/>
+
+                    <View
+                            android:layout_width="7dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@drawable/solid_tracking"/>
+
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Delivered to the depot for sorting"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingRight="@dimen/fab_margin"
+                    android:paddingLeft="@dimen/fab_margin"
+                    android:weightSum="5" >
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:text="21/09/2015"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:textStyle="bold"
+                            android:text="Est. 6:00"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:textStyle="bold"
+                            android:text="am"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="1dp"
+                            app:srcCompat="@drawable/ic_brightness_1_black_24dp"
+                            android:tint="@color/colorpaymentGreen"/>
+
+                    <View
+                            android:layout_width="7dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@drawable/solid_tracking"/>
+
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Delivered to the depot for sorting"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingRight="@dimen/fab_margin"
+                    android:paddingLeft="@dimen/fab_margin"
+                    android:weightSum="5" >
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:text="21/09/2015"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:textStyle="bold"
+                            android:text="Est. 6:00"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:textStyle="bold"
+                            android:text="am"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="1dp"
+                            app:srcCompat="@drawable/ic_panorama_fish_eye_black_24dp"
+                            android:tint="@color/collorGray"/>
+
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:orientation="vertical">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Delivered to the depot for sorting"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                      xmlns:map="http://schemas.android.com/apk/res-auto"
+                      xmlns:tools="http://schemas.android.com/tools"
+                      android:id="@+id/map"
+                      android:name="com.google.android.gms.maps.SupportMapFragment"
+                      android:layout_width="match_parent"
+                      android:layout_height="200dp"
+                      tools:context="in.eyehunt.googlemapsandroidkotlin.MapsActivity" />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/fab_margin"
+                    android:gravity="center"
+                    android:background="@color/collorGray">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="ได้รับสินค้าเรียบร้อยแล้ว"/>
+            </LinearLayout>
+
 
         </LinearLayout>
     </RelativeLayout>
