@@ -4,11 +4,13 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#1f426a</color>
     <color name="colorGreen">#78d210</color>
+    <color name="colorpaymentGreen">#44c502</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorCloseRed">#C40000</color>
     <color name="colorBgTransparent">#00000000</color>
     <color name="colorBlack">#000000</color>
     <color name="collorDrakGray">#424242</color>
+    <color name="collorGray">#9b9898</color>
     <color name="your_color">#2578c2</color>
     <color name="colorBlueText">#3d70c2</color>
 </resources>
