@@ -1,6 +1,7 @@
 package com.example.inno3app
 
 import android.content.Intent
+import android.content.pm.ActivityInfo
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button
@@ -11,6 +12,7 @@ class RegisterActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT)
         setContentView(R.layout.activity_register)
         setSupportActionBar(toolbar)
         val btnOpenPageregister : Button = findViewById(R.id.link_page_login)
