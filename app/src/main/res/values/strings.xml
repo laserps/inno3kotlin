@@ -64,4 +64,8 @@
         AIzaSyDRv3q2EKlM5c7OsDXVru_leLBiKTbG6jE
     </string>
     <string name="title_activity_tracking">TrackingActivity</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
