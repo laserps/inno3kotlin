@@ -28,11 +28,7 @@
                 android:name=".TrackingActivity"
                 android:label="Tracking"
                 android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
         <activity
                 android:name=".GoogleActivity"
@@ -91,7 +87,11 @@
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
 
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
         <activity
                 android:name=".HomeActivity"
