@@ -15,7 +15,6 @@ class GoogleActivity : AppCompatActivity(), OnMapReadyCallback {
     private lateinit var mMap: GoogleMap
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT)
         setContentView(R.layout.activity_google)
         setSupportActionBar(toolbar)
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.

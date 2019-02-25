@@ -21,7 +21,7 @@
                   android:layout_width="fill_parent"
                   android:layout_height="50dp"
                   android:drawableLeft="@android:drawable/ic_menu_search"
-                  android:hint="Search product.."
+                  android:hint="ค้นหาที่อยู่หรือชื่ออาคาร"
                   android:background="@drawable/solid"
                   android:inputType="textVisiblePassword"/>
         <fragment xmlns:android="http://schemas.android.com/apk/res/android"

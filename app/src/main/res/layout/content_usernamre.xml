@@ -31,13 +31,13 @@
                     android:inputType="textEmailAddress"
                     android:fontFamily="@font/kanit"
                     android:layout_marginBottom="30dp"
-                    android:hint="Email"/>
+                    android:hint="อีเมล"/>
             <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/kanit"
                     android:inputType="textPassword"
-                    android:hint="Password"/>
+                    android:hint="รหัสผ่าน"/>
 
         </LinearLayout>
 

@@ -30,7 +30,7 @@
                 <RadioButton android:id="@+id/radio_credit"
                              android:layout_width="match_parent"
                              android:layout_height="45dp"
-                             android:text="Credit and Debit cards"
+                             android:text="บัตรเครดิตและบัตรเดบิต"
                              android:drawableRight="@drawable/ic_payment"
                              android:padding="3dp"
                              android:layout_marginTop="@dimen/fab_margin"
@@ -51,7 +51,7 @@
                     <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Cardholder Name"
+                            android:text="นามผู้ถือบัตร"
                             android:textColor="@color/colorBlack"/>
                     <EditText
                             android:layout_width="fill_parent"
@@ -63,7 +63,7 @@
                     <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Cart Number"
+                            android:text="หมายเลขบัตร"
                             android:textColor="@color/colorBlack"/>
                     <EditText
                             android:layout_width="fill_parent"
@@ -88,7 +88,7 @@
                             <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="End Date"
+                                    android:text="วันหมดอายุ"
                                     android:textColor="@color/colorBlack"/>
 
                         </LinearLayout>
@@ -244,7 +244,7 @@
                         <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Pay Now >>"
+                                android:text="ชำระเงิน >>"
                                 android:background="@drawable/inno3_payment_btn"
                                 android:backgroundTint="@color/colorpaymentGreen"
                                 android:textColor="@color/colorWhite"

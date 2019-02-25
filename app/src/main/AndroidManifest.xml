@@ -23,70 +23,75 @@
         <activity
                 android:name=".PaymentActivity"
                 android:label="@string/title_activity_payment"
+                android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
                 android:name=".TrackingActivity"
                 android:label="Tracking"
+                android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
                 android:name=".GoogleActivity"
                 android:label="ค้นหาที่อยู่"
+                android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <!--
-             The API key for Google Maps-based APIs is defined as a string resource.
-             (See the file "res/values/google_maps_api.xml").
-             Note that the API key is linked to the encryption key used to sign the APK.
-             You need a different API key for each encryption key, including the release key that is used to
-             sign the APK for publishing.
-             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-        -->
         <meta-data
                 android:name="com.google.android.geo.API_KEY"
+                android:screenOrientation="portrait"
                 android:value="@string/google_maps_key"/> <!-- <activity -->
         <activity
                 android:name=".Receipt"
                 android:label="@string/title_activity_receipt"
+                android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
                 android:name=".cart"
                 android:label="ตะกร้าสินค้า"
+                android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
                 android:name=".delivery_location"
                 android:label="สถานที่จัดส่ง"
+                android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
                 android:name=".history_order"
                 android:label="ประวัติการสั่งซื้อ"
+                android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
                 android:name=".confirm_order"
                 android:label="ยืนยันการสั้งซื้อ"
+                android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
                 android:name=".Credit"
                 android:label="เครดิต"
+                android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
                 android:name=".RegisterActivity"
                 android:label="สมัครสมาชิก"
+                android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
                 android:name=".Usernamre"
                 android:label="@string/title_activity_usernamre"
+                android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".login">
+        <activity android:name=".login"
+                  android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -96,6 +101,7 @@
         <activity
                 android:name=".HomeActivity"
                 android:label="หน้าแรก"
+                android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>

@@ -21,7 +21,6 @@ class login : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN)
         val actionBar = supportActionBar
         actionBar!!.hide()
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT)
         setContentView(R.layout.activity_login)
 
 

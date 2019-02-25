@@ -13,7 +13,6 @@ class Usernamre : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT)
         setContentView(R.layout.activity_usernamre)
         setSupportActionBar(toolbar)
         val btnOpenPagehome : Button = findViewById(R.id.link_home_login)

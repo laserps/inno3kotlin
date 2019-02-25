@@ -161,7 +161,7 @@
                         android:layout_marginLeft="15dp"
                         android:layout_marginRight="15dp"
                         android:fontFamily="@font/kanit"
-                        android:text="100 THB"
+                        android:text="100 บาท"
                         android:textColor="@color/colorBlack"
                         android:textSize="18dp"
                         android:textStyle="normal" />

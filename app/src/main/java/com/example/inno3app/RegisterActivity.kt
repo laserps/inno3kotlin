@@ -12,7 +12,6 @@ class RegisterActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT)
         setContentView(R.layout.activity_register)
         setSupportActionBar(toolbar)
         val btnOpenPageregister : Button = findViewById(R.id.link_page_login)
