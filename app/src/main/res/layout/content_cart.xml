@@ -484,6 +484,7 @@
                 android:padding="@dimen/fab_margin"
         >
             <Button
+                    android:id="@+id/btn_link_cart"
                     android:layout_width="wrap_content"
                     android:layout_height="37dp"
                     android:background="#7ed320"

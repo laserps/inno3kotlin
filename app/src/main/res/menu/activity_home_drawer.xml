@@ -10,9 +10,21 @@
                 android:icon="@drawable/ic_shopping_cart_black_24dp"
                 android:title="ประวัติการสั่งซื้อ"/>
         <item
+                android:id="@+id/activity_cart"
+                android:icon="@drawable/ic_shopping_cart_black_24dp"
+                android:title="ตระกร้าสินค้า"/>
+        <item
                 android:id="@+id/activity_credit"
                 android:icon="@drawable/ic_card_membership_black_24dp"
                 android:title="เครดิต"/>
+        <item
+                android:id="@+id/delivery_location"
+                android:icon="@drawable/ic_location_on_black_24dp"
+                android:title="สถานที่จัดส่ง"/>
+        <item
+                android:id="@+id/GoogleActivity"
+                android:icon="@drawable/ic_explore_black_24dp"
+                android:title="สถานที่จัดส่ง"/>
         <item
                 android:id="@+id/activity_login"
                 android:icon="@drawable/ic_cancel_black_24dp"

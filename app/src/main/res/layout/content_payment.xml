@@ -118,11 +118,12 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:layout_marginBottom="@dimen/fab_margin"
-                            android:weightSum="7" >
+                            android:weightSum="4" >
                         <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:layout_margin="10dp"
                                 android:orientation="vertical">
                             <EditText
                                     android:layout_width="match_parent"
@@ -135,28 +136,12 @@
                         </LinearLayout>
 
 
-                        <LinearLayout
-                                android:layout_width="0dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:gravity="center"
-                                android:orientation="vertical">
-                            <ImageView
-                                    android:layout_height="22dp"
-                                    android:layout_width="22dp"
-                                    android:layout_marginTop="3dp"
-                                    app:srcCompat="@drawable/ic_question_mark"
-                                    android:layout_gravity="center"
-                                    android:tint="@color/collorGray"/>
-
-
-                        </LinearLayout>
-
 
                         <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:layout_margin="10dp"
                                 android:orientation="vertical">
                             <EditText
                                     android:layout_width="match_parent"
@@ -167,27 +152,14 @@
                                     android:inputType="number"/>
 
                         </LinearLayout>
-                        <LinearLayout
-                                android:layout_width="0dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:gravity="center"
-                                android:orientation="vertical">
 
-                            <ImageView
-                                    android:layout_height="22dp"
-                                    android:layout_width="22dp"
-                                    android:layout_marginTop="3dp"
-                                    app:srcCompat="@drawable/ic_question_mark"
-                                    android:layout_gravity="center"
-                                    android:tint="@color/collorGray"/>
-                        </LinearLayout>
 
 
                         <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:layout_margin="10dp"
                                 android:orientation="vertical">
                             <EditText
                                     android:layout_width="match_parent"
@@ -198,27 +170,12 @@
 
                         </LinearLayout>
 
-
                         <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:gravity="center"
-                                android:orientation="vertical">
-
-                            <ImageView
-                                    android:layout_height="22dp"
-                                    android:layout_width="22dp"
-                                    android:layout_marginTop="3dp"
-                                    android:layout_gravity="center"
-                                    app:srcCompat="@drawable/ic_question_mark"
-                                    android:tint="@color/collorGray"/>
-                        </LinearLayout>
-                        <LinearLayout
-                                android:layout_width="0dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:gravity="center"
+                                android:layout_margin="10dp"
                                 android:orientation="horizontal">
 
                             <TextView
@@ -242,6 +199,7 @@
                                 android:layout_marginBottom="@dimen/fab_margin"
                                 android:textSize="10dp"/>
                         <Button
+                                android:id="@+id/btn_link_confirm1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="ชำระเงิน >>"
@@ -263,7 +221,7 @@
                              android:drawableRight="@drawable/ic_sofort"
                              android:layout_marginTop="@dimen/fab_margin"
                              android:padding="3dp"
-                             android:text="Online banking and Direct debit"/>
+                             android:text="จ่ายผ่านบัญชีธนาคาร"/>
 
                 <GridLayout
                         android:layout_width="match_parent"
@@ -278,7 +236,7 @@
                     <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Cardholder Name"
+                            android:text="นามผู้ถือบัตร"
                             android:textColor="@color/colorBlack"/>
                     <EditText
                             android:layout_width="fill_parent"
@@ -290,7 +248,7 @@
                     <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Cart Number"
+                            android:text="หมายเลขบัตร"
                             android:textColor="@color/colorBlack"/>
                     <EditText
                             android:layout_width="fill_parent"
@@ -338,17 +296,17 @@
 
 
 
-
                     <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:layout_marginBottom="@dimen/fab_margin"
-                            android:weightSum="7" >
+                            android:weightSum="4" >
                         <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:layout_margin="10dp"
                                 android:orientation="vertical">
                             <EditText
                                     android:layout_width="match_parent"
@@ -361,28 +319,12 @@
                         </LinearLayout>
 
 
-                        <LinearLayout
-                                android:layout_width="0dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:gravity="center"
-                                android:orientation="vertical">
-                            <ImageView
-                                    android:layout_height="22dp"
-                                    android:layout_width="22dp"
-                                    android:layout_marginTop="3dp"
-                                    app:srcCompat="@drawable/ic_question_mark"
-                                    android:layout_gravity="center"
-                                    android:tint="@color/collorGray"/>
-
-
-                        </LinearLayout>
-
 
                         <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:layout_margin="10dp"
                                 android:orientation="vertical">
                             <EditText
                                     android:layout_width="match_parent"
@@ -393,27 +335,14 @@
                                     android:inputType="number"/>
 
                         </LinearLayout>
-                        <LinearLayout
-                                android:layout_width="0dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:gravity="center"
-                                android:orientation="vertical">
 
-                            <ImageView
-                                    android:layout_height="22dp"
-                                    android:layout_width="22dp"
-                                    android:layout_marginTop="3dp"
-                                    app:srcCompat="@drawable/ic_question_mark"
-                                    android:layout_gravity="center"
-                                    android:tint="@color/collorGray"/>
-                        </LinearLayout>
 
 
                         <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:layout_margin="10dp"
                                 android:orientation="vertical">
                             <EditText
                                     android:layout_width="match_parent"
@@ -424,27 +353,12 @@
 
                         </LinearLayout>
 
-
                         <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:gravity="center"
-                                android:orientation="vertical">
-
-                            <ImageView
-                                    android:layout_height="22dp"
-                                    android:layout_width="22dp"
-                                    android:layout_marginTop="3dp"
-                                    android:layout_gravity="center"
-                                    app:srcCompat="@drawable/ic_question_mark"
-                                    android:tint="@color/collorGray"/>
-                        </LinearLayout>
-                        <LinearLayout
-                                android:layout_width="0dp"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:gravity="center"
+                                android:layout_margin="10dp"
                                 android:orientation="horizontal">
 
                             <TextView
@@ -454,6 +368,7 @@
                                     android:text="3 digits"/>
                         </LinearLayout>
                     </LinearLayout>
+
 
 
                     <LinearLayout
@@ -468,9 +383,10 @@
                                 android:layout_marginBottom="@dimen/fab_margin"
                                 android:textSize="10dp"/>
                         <Button
+                                android:id="@+id/btn_link_confirm2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Pay Now >>"
+                                android:text="ชำระเงิน >>"
                                 android:background="@drawable/inno3_payment_btn"
                                 android:backgroundTint="@color/colorpaymentGreen"
                                 android:textColor="@color/colorWhite"
@@ -533,9 +449,10 @@
                             android:layout_marginBottom="@dimen/fab_margin"
                             android:textSize="10dp"/>
                     <Button
+                            android:id="@+id/btn_link_confirm3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Pay Now >>"
+                            android:text="ชำระเงิน >>"
                             android:background="@drawable/inno3_payment_btn"
                             android:backgroundTint="@color/colorpaymentGreen"
                             android:textColor="@color/colorWhite"

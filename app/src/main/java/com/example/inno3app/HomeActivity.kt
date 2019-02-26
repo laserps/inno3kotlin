@@ -61,12 +61,24 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 val intent = Intent(this,history_order::class.java);
                 startActivity(intent);
             }
+            R.id.activity_cart -> {
+                val intent = Intent(this,cart::class.java);
+                startActivity(intent);
+            }
             R.id.activity_credit -> {
                 val intent = Intent(this,Credit::class.java);
                 startActivity(intent);
             }
             R.id.activity_login -> {
                 val intent = Intent(this,login::class.java);
+                startActivity(intent);
+            }
+            R.id.delivery_location -> {
+                val intent = Intent(this,delivery_location::class.java);
+                startActivity(intent);
+            }
+            R.id.GoogleActivity -> {
+                val intent = Intent(this,GoogleActivity::class.java);
                 startActivity(intent);
             }
         }

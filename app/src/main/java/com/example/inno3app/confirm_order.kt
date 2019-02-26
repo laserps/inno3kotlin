@@ -10,6 +10,7 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import kotlinx.android.synthetic.main.activity_confirm_order.*
 import kotlinx.android.synthetic.main.app_bar_confirm_order.*
 
@@ -20,6 +21,11 @@ class confirm_order : AppCompatActivity(), NavigationView.OnNavigationItemSelect
         setContentView(R.layout.activity_confirm_order)
         setSupportActionBar(toolbar)
 
+        val confirm : Button = findViewById(R.id.btn_link_ok)
+        confirm.setOnClickListener{
+            val intent = Intent(this, Receipt :: class.java)
+            startActivity(intent)
+        }
 
         val toggle = ActionBarDrawerToggle(
             this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close
@@ -61,12 +67,24 @@ class confirm_order : AppCompatActivity(), NavigationView.OnNavigationItemSelect
                 val intent = Intent(this,history_order::class.java);
                 startActivity(intent);
             }
+            R.id.activity_cart -> {
+                val intent = Intent(this,cart::class.java);
+                startActivity(intent);
+            }
             R.id.activity_credit -> {
                 val intent = Intent(this,Credit::class.java);
                 startActivity(intent);
             }
             R.id.activity_login -> {
                 val intent = Intent(this,login::class.java);
+                startActivity(intent);
+            }
+            R.id.delivery_location -> {
+                val intent = Intent(this,delivery_location::class.java);
+                startActivity(intent);
+            }
+            R.id.GoogleActivity -> {
+                val intent = Intent(this,GoogleActivity::class.java);
                 startActivity(intent);
             }
         }
