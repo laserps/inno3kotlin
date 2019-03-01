@@ -81,6 +81,22 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 val intent = Intent(this,GoogleActivity::class.java);
                 startActivity(intent);
             }
+            R.id.Tracking -> {
+                val intent = Intent(this,TrackingActivity::class.java);
+                startActivity(intent);
+            }
+            R.id.payment -> {
+                val intent = Intent(this,PaymentActivity::class.java);
+                startActivity(intent);
+            }
+            R.id.confrimpayment -> {
+                val intent = Intent(this,confirm_order::class.java);
+                startActivity(intent);
+            }
+            R.id.receipt -> {
+                val intent = Intent(this,Receipt::class.java);
+                startActivity(intent);
+            }
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)

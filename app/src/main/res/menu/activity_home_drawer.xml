@@ -4,32 +4,48 @@
       tools:showIn="navigation_view"
       android:layout_alignParentBottom="true" >
 
-    <group android:checkableBehavior="single">
-        <item
-                android:id="@+id/activity_history_order"
-                android:icon="@drawable/ic_shopping_cart_black_24dp"
-                android:title="ประวัติการสั่งซื้อ"/>
-        <item
-                android:id="@+id/activity_cart"
-                android:icon="@drawable/ic_shopping_cart_black_24dp"
-                android:title="ตระกร้าสินค้า"/>
-        <item
-                android:id="@+id/activity_credit"
-                android:icon="@drawable/ic_card_membership_black_24dp"
-                android:title="เครดิต"/>
-        <item
-                android:id="@+id/delivery_location"
-                android:icon="@drawable/ic_location_on_black_24dp"
-                android:title="สถานที่จัดส่ง"/>
-        <item
-                android:id="@+id/GoogleActivity"
-                android:icon="@drawable/ic_explore_black_24dp"
-                android:title="สถานที่จัดส่ง"/>
-        <item
-                android:id="@+id/activity_login"
-                android:icon="@drawable/ic_cancel_black_24dp"
-                android:title="ออกจากระบบ"/>
-    </group>
+        <group android:checkableBehavior="single">
+            <item
+                    android:id="@+id/activity_history_order"
+                    android:icon="@drawable/ic_shopping_cart_black_24dp"
+                    android:title="ประวัติการสั่งซื้อ"/>
+            <item
+                    android:id="@+id/activity_cart"
+                    android:icon="@drawable/ic_shopping_cart_black_24dp"
+                    android:title="ตระกร้าสินค้า"/>
+            <item
+                    android:id="@+id/activity_credit"
+                    android:icon="@drawable/ic_card_membership_black_24dp"
+                    android:title="เครดิต"/>
+            <item
+                    android:id="@+id/delivery_location"
+                    android:icon="@drawable/ic_location_on_black_24dp"
+                    android:title="สถานที่จัดส่ง"/>
+            <item
+                    android:id="@+id/GoogleActivity"
+                    android:icon="@drawable/ic_explore_black_24dp"
+                    android:title="สถานที่จัดส่ง"/>
+            <item
+                    android:id="@+id/Tracking"
+                    android:icon="@drawable/ic_explore_black_24dp"
+                    android:title="Tracking"/>
+            <item
+                    android:id="@+id/payment"
+                    android:icon="@drawable/ic_explore_black_24dp"
+                    android:title="ชำระเงิน"/>
+            <item
+                    android:id="@+id/confrimpayment"
+                    android:icon="@drawable/ic_explore_black_24dp"
+                    android:title="ยืนยันการสั่งซื้อ"/>
+            <item
+                    android:id="@+id/receipt"
+                    android:icon="@drawable/ic_explore_black_24dp"
+                    android:title="ใบเสร็จรับเงิน"/>
+            <item
+                    android:id="@+id/activity_login"
+                    android:icon="@drawable/ic_cancel_black_24dp"
+                    android:title="ออกจากระบบ"/>
+        </group>
 
 </menu>
 
