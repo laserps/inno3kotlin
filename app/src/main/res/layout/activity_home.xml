@@ -25,8 +25,7 @@
             app:menu="@menu/activity_home_drawer">
 
 
-
-         <include layout="@layout/switch_layout" />
+         <!--<include layout="@layout/switch_layout" />-->
 
     </android.support.design.widget.NavigationView>
 
